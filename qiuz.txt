@@ -1,0 +1,70 @@
+"Q1: Who is the richest person of India?<br><img src='mon.jpg'/><br><br>a.mukesh ambani.<br>b. anil ambani<br>c. azim premji<br>d. Laxmi Mittal.",
+"Q2:who was the first miss universe from india?<br><br>a.Aishwarya Rai<br>b.Lara Dutta<br>c.Sushmita Sen.<br>d. Priyanka Chopra",
+"Q3:First Punjabi film made in the city<br><br>a.Chandigarh<br>b.Lahore<br>c.Kolkata<br>d. Agra",
+"Q4:First Indian filmmaker to get Bharat Ratna<br><br>a.M. G. Ramachandran<br>b. Satyajit Ray <br>c. M. S. Subbulakshmi<br>d. Ravi Shankar",
+"Q5:Who is the first Indian to win Medal in wrestling ?<br><br>a. Abhinav bindra<br>b. Mary Kome<br>c.Vijendra Singh<br>d.Sushil Kumar",
+"Q6:first indian Cricketer to score a triple century in a Test match<br>a.Sachin Tendulkar<br>b.Virender Sehwag<c>VVS Laxman<d>Saurav Ganguly",
+"Q7 CEO of facebook<br><br>a.MarK Zuckerberg<br>Jesse Eisanberg<br>c.Steve Jobs<br>d.Sean Parker",
+"Q8: name of tiger in life of pie.<br><br>a.Orange Juice<br>b. Richard Parker<br>c. Banana Boat<br>d.Ravi.",
+"Q9:whose  lines are these-'Why join the navy if you can be a pirate?'<br><br>a. Jeff Dean<br>b. Linus Trovalds<br>c. Bary Evans<br>d.Steve Jobs",
+"Q10:tallest buildiing in world.<br><br>a. Sears Towers<br>b.Tapei 101<br>c.Burj Khalifa<br>d.Burj Al Arab",
+"Q11:What is the national river of india.<br><br>a.Ganga<br>b. Satluj<br>c.Narmada<br>d.Brahmaputra",
+"Q12:Fastest man on earth<br><br>a. Usain Bolt<br>b.Michael Johnson<br>
+"Q13:Recognize the name of character below<br><br><img src='tux.jpg'/><br>a. Pingu<br>b. Pikachu<br>c.Goku<br>d. Tux"
+"Q14: Recognize this personality who was also nominated for Oscars this year<br><img src='BombayJayashri.jpg'/><br>a. Parineeti Chopra<br>b. Bombay Shri<br>c. Shreya Ghoshal<br>d. Kavita Krishnamurthy"
+"Q15 : Identify the following number in the following series<br>1 1 2 3 5 8 _<br><br>a.13<br>b.8<br>c.12<br>15"
+"Q16 : Identify this personality<br><img src='boman.jpg'/><br><br>a. Jaspal Bhatti<br>b.Rabbi Shergill<br>c. Boman Irani<br>d. Navjot Singh Siddhu"
+"Q17 : Recognize the person on $100 bill<br><img src='ben.jpg'/>a. Abraham Lincoln<br>b. George Washington<br>c. John F. Kennedy<br>d.Benjamin Franklin"
+"Q18 : Who is this singer of a very popular song<br><img src='psy.jpg'/><br><br>a. Jackie Chan<br>b.PSY<br>c.Kong Ying<br>d.Jet Li"
+"Q19 : Who is this famous computing personality<br><img src='steve.jpg'/><br><br>a. Ashton Kutcher<br>b. Steve Jobs<br>c. Bill Gates<br>d. Linus Trovalds"
+"Q20: Who is this man also known as father of computers	<br><img src='cb.gif'/><br><br>a. Charles Babbage <br>b. Ed Roberts<br>c.Charles Dickens<br>d. Aristotle"
+"Q21: Recognize this Famous Tennis Player<br><img src='rafa.jpg'/><br><br>a. Novak Djokovic<br>b.Roger Federer<br>c. Andy Murray<br>d. Rafael Nadal"
+"Q22 : Recognize the famous Car Manufacturer by  logo<br><img src='fer.jpg'/><br><br>a. Lamborghini<br>b. Porsche<br>c. Ferrari<br>d. BMW"
+"Q23 : What Famous Novel did this author write<br><img src='Rowl.jpg'/><br><br>a.I am Legend<br>b. Harry Potter<br>c.The White Tiger<br>d. Twilight"
+"Q24 : What is the real name of Govinda<br><img src='gov.jpg'/><br><br>a. Govind Kumar Singh<br>b.Gopi Sawarkar<br>c. Govind Arun Ahuja<br>d.Govind Patel"
+"Q25 :Who is the founder of Google<br><img src='goo.jpg'/><br><br>a. Larry Page<br>b. Dennis Ritchie<br>c. Mark Zuckerberg<br>d. Sabeer Bhatia "
+"Q26 :Who was the winner of Indian Idol 2<br><img src='indi.jpg'/><br><br>a. Abhijeet Sawant<br>b. Sandeep Acharya<br>c. Sreeram Chandra<br>d.  Sourabhee Debbarma"
+"Q27 :Who played Akbar in 'Mughal-e-Azam' movie<br><img src='prk.jpg'/><br><br>a. Dileep Kumar<br>b. Prithviraj Kapoor<br>c. Shashi Kapoor<br>d. Jalal Agha"
+"Q28 :Who is this man also known as father of Medicine<br><img src='hippo.jpg'/><br><br>a. Hippocrates<br>b. Aristotle <br>c. Plato<br>d. Herodus"
+"Q29 :Recognize this logo<br><img src='aus.jpg'/><br><br>a. South Africa<br>b. New Zealand<br>c. Australia<br>d. Kenya"
+"Q30 :Who is this famous Football Personality<br><img src='messi.jpg'/><br><br>a. Cristiano Ronaldo<br>b. David Bekham<br>c.Mario Balotelli <br>d.Lionel Messi"
+"Q31 :What was the name of first Salman Khan movie in a leading role<br><img src='salm.jpg'/><br><br>a.Hum Aapke Hain Kaun<br>b. Maine Pyar Kiya<br>c. Sanam Bewafa<br>d. Patthar Ke phool"
+"Q32 :What Programming language has this logo<br><img src='java.jpg'/><br><br>a.Objective C<br>b. Python<br>c. Java<br>d. Ruby On Rails"
+"Q33 :What was the first James Bond movie's name<br><img src='bond.jpg'/><br><br>a.Dr. No<br>b. From Russia With Love<br>c.Thunderball<br>d.Goldfinger"
+"Q34 :Which of the following brands is NOT under Coca-Cola<br><img src='coc.jpg'/><br><br>a. Sprite<br>b. Limca<br>c. Coke<br>d. Mountain Dew"
+"Q35 :Which is the smallest country in world<br><br>a.Monaco<br>b.Vatican City<br>c.Nauru<br>d.Tuvalo"
+"Q36 :Train to make the fastest speed world record<br><img src='train.jpg'/><br><br>a.HSL-1<br>b.ETR 500<br>c.TGV<br>d. EuroStar"
+"Q37 :Which is the world's highest waterfall?<br><img src='water.jpg'/><br><br>a. Angel Falls<br>b.Alfred Creek Falls<br>c. Jog Falls<br>d.Niagara Falls"
+"Q38 :Shortest reigning Prime Minister in India<br><br>a. Charan Singh<br>b. Gulzarilal Nanda<br>c.Lal Bahadur Shastri<br>d.V. P. Singh"
+
+
+
+
+a,c,c,b,d,b,a,b,d,c,a,d,b,a,c,d,b,b,a,d,c,b,c,a,b,b,a,c,d,b,c,a,d,b,c,a,b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<html>
+<head>
+	<title>Algorhythm::Public Quiz</title>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+	var i=0;
+	var t;
+	var timeout=60; //timer for each question
+	//All questions along with there Options
+	var ques=[  "q1<br>a.<br>b.<br>c.<br>d.",
+				"q2.<br>a.<br>b.<br>c.<br>d.",
+				"q3<br>a.<br>b.<br>c.<br>d.",
+				"q4<br>a.<br>b.<br>c.<br>d.",
+				"q5<br>a.<br>b.<br>c.<br>d.",
+				"q6<br>a.<br>b.<br>c.<br>d.",
+				"q7<br>a.<br>b.<br>c.<br>d.",
+				"q8<br>a.<br>b.<br>c.<br>d.",
+				"q9<br>a.<br>b.<br>c.<br>d.",
+				"q10<br>a.<br>b.<br>c.<br>d.",
+				"The End"];
+	/*			
+	function toggleFullScreen() 
+	{
+		if ((document.fullScreenElement && document.fullScreenElement !== null) ||   (!document.mozFullScreen && !document.webkitIsFullScreen)) 
+		{
+			if (document.documentElement.requestFullScreen) 
+			  document.documentElement.requestFullScreen();  
+			else if (document.documentElement.mozRequestFullScreen) 
+			  document.documentElement.mozRequestFullScreen();  
+			else if (document.documentElement.webkitRequestFullScreen) 
+			  document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);  
+			  
+		}
+		else 
+		{  
+			if (document.cancelFullScreen) 
+			  document.cancelFullScreen();  
+			else if (document.mozCancelFullScreen) 
+			  document.mozCancelFullScreen();  
+			else if (document.webkitCancelFullScreen) 
+			  document.webkitCancelFullScreen();  
+			  
+		}  
+	} */
+	function mess()
+	{
+		var tsend = Math.round((new Date()).getTime() / 1000);
+		window.open("http://localhost/test/Quiz/check.php?start="+tsend, '_blank');
+		window.alert("");
+	}
+	function delay()
+	{
+		var text="Get Ready for next Question";
+		if(i != 0)
+		{
+			document.getElementById("que").innerHTML=text;
+			$("#que").hide();
+			$("#que").fadeIn(2000);
+			if(i < ques.length)
+			setTimeout("delay();",5000);
+		}
+	}
+	function gen()
+	{
+		//NOT WORKING
+		document.getElementById("play").hidden="";
+		document.getElementById("start").innerHTML="";
+		document.getElementById("que").innerHTML=ques[i];
+		$("#que").hide();
+		$("#que").fadeIn(2000);
+		i++;
+		t=timeout-1;
+		if(i < ques.length)
+			setTimeout("gen();",timeout*1000);
+		
+	}
+	
+	
+	function time()
+	{
+		
+		if(i != ques.length)
+		{
+			document.getElementById("time").innerHTML=t; //display time
+			
+		}
+		else
+			document.getElementById("time").innerHTML="Sorry! It's Over, please try again later !!<br>You'll be contacted if there's a prize for you";
+		if(t <= 10)
+			document.getElementById("time").style.color="red";
+		else
+			document.getElementById("time").style.color="black";
+		t--;
+		if(i < ques.length)
+		setTimeout("time();",1000);
+	}
+	</script>
+</head>
+
+
+
+<body>
+	<div id="start">
+			<center>
+				<h1>Welcome to the quiz.</h1><br>
+				<h2>Please be ready! It's about to start</h2>
+				<button onclick="gen();time();mess();">Start</button>
+			</center>
+		</div>
+	
+		<div id ="play" hidden="hidden">
+			<center>
+				<h1>Answer the questions below:</h1>	
+				<h3 id="que" ></h3>
+				<br><br><br>
+				<h4 style="display:inline">Time left to answer : </h4>
+				<h1 id="time" style="display:inline"></h1>
+			</center>
+		</div>
+		<p>Instructions:<br>
+			1.<b> Message your answer (a, b, c, or d) to 57575 through SMS's</b><br>  
+			2. Be Quick! Dont let the timer run out<br>
+			3. Prizes to be Won! 
+		</p>
+</body>
+</html>

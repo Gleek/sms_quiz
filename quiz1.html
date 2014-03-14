@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Algorhythm::Public Quiz</title>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+	var i=0;
+	var t;
+	var timeout=60; //timer for each question
+	//All questions along with there Options
+	var ques=[  "q1.What is part of a database that holds only one type of information?<br>a.Report<br>b.Field<br>c.Query<br>d.Record<br>e.File",
+		"q2.What is another name for the microprocessor, the main processing unit of the computer? It carries out retrieve, decode, and execute steps of the computer system.<br>a.Circuit<br>b.Chip<br>c.Function<br>d.Windows<br>e.Central Processing Unit (CPU)",
+		"q3.What do we call a collection of two or more computers that are located within a limited distance of each other and that are connected to each other directly or indirectly?<br>a.Network<br>b.Internet<br>c.LAN (Local Area Network)<br>d.World Wide Web<br>e.WAN (Wide Area Network)",
+		"q4 What is part of a database that holds all of the information about one item or subject?<br>a. Record<br>b.File<br>c.Query<br>d.Chart<br>e.Report",
+		"q5 What is a networked computer that is shared by multiple users?<br>a.WAN (Wide Area Network)<br>b.Modem<br>c.World Wide Web<br>d.Network<br>e.Server",
+		"q6 What do we call anything created with a software program that is stored in a computer?<br>a.Document<br>b.Record<br>c.Field<br>d.Report<br>e.Text",
+		"q7 What word means to copy or send a file from a local computer to another computer on the Internet?<br>a. URL (Universal Resource Locator)<br>b.  Login<br>c.Upload<br>d.Download<br>e.Server",
+		"q8 What is the personal computer operating system that organizes files within a computer and uses a graphic desktop environment?<br>a.DOS (Disk Operating System)<br>b.RAM<br>c.Functions<br>d.CPU (Central Processing Unit)<br>e.Windows",
+		"q9 What is the temporary storage memory chips that form the computer's primary work space? The contents are lost if power is disrupted.<br>a. ROM (Read-only memory)<br>b. Windows<br>c. Output<br>d. RAM (Random-access memory)<br>e. Hard drive memory",
+		"q10 What is the term for a computer program, usually produced and used maliciously, that can destroy or damage computer information? It is transmitted by floppy disk or by downloading an infected file from an online source.<br>a.Bug<br>b.Bit<br>c. Byte<br>d.Virus<br>e.Chip",
+				"The End"];
+	function mess()
+	{
+		var tsend = Math.round((new Date()).getTime() / 1000);
+		window.open("http://engineerinme.com/umar/check.php?start="+tsend, '_blank');
+		window.alert("");
+	}
+	function delay()
+	{
+		var text="Get Ready for next Question";
+		if(i != 0)
+		{
+			document.getElementById("que").innerHTML=text;
+			$("#que").hide();
+			$("#que").fadeIn(2000);
+			if(i < ques.length)
+			setTimeout("delay();",5000);
+		}
+	}
+	function gen()
+	{
+		//NOT WORKING
+		document.getElementById("play").hidden="";
+		document.getElementById("start").innerHTML="";
+		document.getElementById("que").innerHTML=ques[i];
+		$("#que").hide();
+		$("#que").fadeIn(2000);
+		i++;
+		t=timeout-1;
+		if(i < ques.length)
+			setTimeout("gen();",timeout*1000);
+		
+	}
+	
+	
+	function time()
+	{
+		
+		if(i != ques.length)
+		{
+			document.getElementById("time").innerHTML=t; //display time
+			
+		}
+		else
+			document.getElementById("time").innerHTML="Sorry! It's Over, please try again later !!<br>You'll be contacted if there's a prize for you";
+		if(t <= 10)
+			document.getElementById("time").style.color="red";
+		else
+			document.getElementById("time").style.color="black";
+		t--;
+		if(i < ques.length)
+		setTimeout("time();",1000);
+	}
+	</script>
+</head>
+
+
+
+<body>
+	<div id="start">
+			<center>
+				<h1>Welcome to the quiz.</h1><br>
+				<h2>Please be ready! It's about to start</h2>
+				<button onclick="gen();time();mess();">Start</button>
+			</center>
+		</div>
+	
+		<div id ="play" hidden="hidden">
+			<center>
+				<h1>Answer the questions below:</h1>	
+				<h3 id="que" ></h3>
+				<br><br><br>
+				<h4 style="display:inline">Time left to answer : </h4>
+				<h1 id="time" style="display:inline"></h1>
+			</center>
+		</div>
+		<p>Instructions:<br>
+			1.<b>To Answer:Type @pquiz 'your answer'(a b c d or e) to 92665 92665</b><br>  
+			2. Be Quick! Dont let the timer run out<br>
+			3. Prizes to be Won! 
+		</p>
+</body>
+</html>
